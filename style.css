@@ -35,3 +35,34 @@ footer {
   background: #111;
   color: white;
 }
+
+.placeholders {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 2rem 0;
+}
+
+.placeholder {
+  background-color: #fff;
+  border: 2px solid #111;
+  border-radius: 12px;
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+}
+
+.placeholder a {
+  text-decoration: none;
+  color: #111;
+  font-weight: bold;
+}
+
+.placeholder:hover {
+  background-color: #111;
+}
+
+.placeholder:hover a {
+  color: #fff;
+}
