@@ -23,7 +23,8 @@ header nav ul li a {
   text-decoration: none;
 }
 .logo {
-  height: 50px;
+  height: 150px;
+  width: auto;
 }
 main {
   padding: 2rem;
